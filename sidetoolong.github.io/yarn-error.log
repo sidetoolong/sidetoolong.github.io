@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --production --ignore-optional --silent
+
+PATH: 
+  C:\Users\Administrator\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\local\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\bin;C:\Users\Administrator\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet;C:\Program Files\Bandizip;C:\Program Files (x86)\Git\cmd;C:\Program Files\nodejs;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Git\usr\bin\vendor_perl;C:\Program Files (x86)\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: unable to verify the first certificate
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1530:34)
+      at TLSSocket.emit (node:events:390:28)
+      at TLSSocket._finishInit (node:_tls_wrap:944:8)
+      at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12)
+
+npm manifest: 
+  {
+    "name": "hexo-site",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "build": "hexo generate",
+      "clean": "hexo clean",
+      "deploy": "hexo deploy",
+      "server": "hexo server"
+    },
+    "hexo": {
+      "version": ""
+    },
+    "dependencies": {
+      "hexo": "^5.0.0",
+      "hexo-generator-archive": "^1.0.0",
+      "hexo-generator-category": "^1.0.0",
+      "hexo-generator-index": "^2.0.0",
+      "hexo-generator-tag": "^1.0.0",
+      "hexo-renderer-ejs": "^1.0.0",
+      "hexo-renderer-marked": "^4.0.0",
+      "hexo-renderer-stylus": "^2.0.0",
+      "hexo-server": "^2.0.0",
+      "hexo-theme-landscape": "^0.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
